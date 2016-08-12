@@ -17,10 +17,10 @@ set backspace=indent,eol,start
 colorscheme brighton
 execute pathogen#infect()
 call pathogen#helptags()
-autocmd VimEnter * NERDTree
-autocmd VimEnter * wincmd p
-autocmd BufWinEnter * NERDTreeMirror
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+"autocmd VimEnter * NERDTree
+"autocmd VimEnter * wincmd p
+"autocmd BufWinEnter * NERDTreeMirror
+"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 set clipboard=unnamed
 noremap <F3> :Autoformat<CR>
 noremap <C-t> :tabe<CR>
