@@ -24,7 +24,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 set clipboard=unnamed
 noremap <F3> :Autoformat<CR>
 noremap <C-t> :tabe<CR>
-noremap <C-w> :tabclose<CR>
+noremap <C-q> :tabclose<CR>
 noremap <C-S-tab> :tabp<CR>
 noremap <C-tab> :tabn<CR>
 noremap <silent> <F8> :execute 'silent! tabmove ' . (tabpagenr()-2)<CR>
